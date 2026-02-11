@@ -237,13 +237,13 @@ export default function FlyInLuxury() {
                                     viewport={{ once: true }}
                                     className="text-center md:text-left"
                                 >
-                                    <div className="text-white/30 text-[10px] tracking-[0.3em] uppercase mb-2">
+                                    <div className="text-accents-1 text-[10px] tracking-[0.3em] uppercase mb-2">
                                         {spec.label}
                                     </div>
-                                    <div className="text-white text-2xl md:text-3xl font-display tracking-tight">
+                                    <div className="text-accents-1 text-2xl md:text-3xl font-display tracking-tight">
                                         {spec.value}
                                         {spec.unit && (
-                                            <span className="text-white/40 text-sm ml-1.5 tracking-wider">
+                                            <span className="text-accents-1/40 text-sm ml-1.5 tracking-wider">
                                                 {spec.unit}
                                             </span>
                                         )}
